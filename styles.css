@@ -1,0 +1,129 @@
+header {
+  width: 90%;
+  background-color: darkslategray;
+  color: lightgreen;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 20px 40px;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 900px;
+}
+
+header .name {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+body {
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/spiration-dark.png");
+    color:aliceblue;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1; /* push footer down to the bottom of the page*/
+}
+
+h1 {
+    color: darkseagreen;
+    margin-left: 5px;
+    margin-top: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+    color: aliceblue;
+    margin: 5px; /*Image & copy margin */
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a {
+    color: lightgreen;
+}
+
+img {
+    float: left;
+    margin: 50px;
+}
+
+ /*Body floater */
+.content {
+  max-width: 500px;
+  float: left;
+  padding: 20px;
+  background: black; 
+  margin: 50px; /*top and bottom breaker margin */
+  margin-left: 0px;
+  box-shadow: 0 4px 8px black;
+}
+
+.wrap-image {
+  float: left;             /* makes text wrap around image */
+  margin: 0 20px 20px 0;   
+  width: 250px;            
+  height: auto;            
+  object-fit: cover;
+}
+
+/* Social box */
+.social-box {
+  /* position: fixed; */
+  margin-left: 550px;         
+  right: 550px;            
+  transform: translateY(-682%);
+  flex-direction: row;
+  align-items: center;      /* center horizontally */
+  background-color: black;
+  box-shadow: 0 4px 8px black;
+  max-width: 600px;
+}
+
+.social-box h2 {
+  color: darkseagreen;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-top: 15px;  /* space between heading and images */
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+/* Socials icon images */
+.social-box a img {
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* Social Icon Link alignment */
+.social-box .links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;   /* space between images */
+}
+
+.social-box a img:hover {
+  transform: scale(1.15);
+  opacity: 0.85;
+}
+
+
+footer {
+    background-color: darkslategray;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    margin-bottom: 100px;
+    width: auto;
+    margin: 0;
+}
+
